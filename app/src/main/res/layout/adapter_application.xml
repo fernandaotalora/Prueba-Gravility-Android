@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    tools:context="adapter.DataApplication">
+
+
+    <ImageView
+        android:id="@+id/imageIconApplication"
+        android:layout_width="80dp"
+        android:src="@drawable/itunes_logo"
+        android:layout_height="80dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/nameEntry"
+            android:layout_width="match_parent"
+            android:text="name"
+            android:textSize="15dp"
+            android:textColor="@color/nameImage"
+            android:textStyle="bold"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/priceEntryAumount"
+                android:layout_width="0dp"
+                android:text="priceaumount"
+                android:textColor="@color/price"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"/>
+
+            <TextView
+                android:id="@+id/priceEntryCurrency"
+                android:layout_width="0dp"
+                android:text="pricecurrency"
+                android:textColor="@color/price"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/rigtsEntry"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="rights"
+            android:textColor="@color/rights"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

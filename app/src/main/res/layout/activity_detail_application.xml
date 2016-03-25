@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="prueba.rappiprueba.DetailApplication">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1">
+
+       <ImageView
+           android:id="@+id/imageEntryDetail"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/nameEntryDetail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:shadowColor="@color/ColorPrimaryDark"
+                android:shadowRadius="1.5"
+                android:shadowDx="1"
+                android:shadowDy="2"
+                android:text="name"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/titleEntryDetail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="name"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/priceEntryDetail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/price"
+                android:text="name"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/rigthsEntryDetail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="name"
+                android:shadowColor="@color/rights"
+                android:shadowRadius="1.5"
+                android:shadowDx="1"
+                android:shadowDy="2"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageEntryDownload"
+            android:layout_width="13dp"
+            android:background="@drawable/downloads"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_downloads"
+            android:layout_weight="0.9"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.7">
+
+        <TextView
+            android:text="Description:"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:shadowColor="@color/nameImage"
+            android:shadowRadius="1.5"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:layout_weight="0.3"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.7">
+            <TextView
+                android:id="@+id/summaryEntry"
+                android:text="summary"
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

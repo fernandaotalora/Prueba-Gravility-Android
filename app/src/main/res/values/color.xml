@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nameImage">#008dc1</color>
+    <color name="price">#0072e6</color>
+    <color name="title">#4da5ff</color>
+    <color name="rights">#00969e</color>
+    <color name="ColorPrimary">#3F51B5</color>
+    <color name="ColorPrimaryDark">#303F9F</color>
+    <color name="ColorAccent">#E91E63</color>
+    <color name="ColorActionBarTitle">#fff</color>
+</resources>

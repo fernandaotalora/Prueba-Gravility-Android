@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RappiPrueba</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_principal">TopActivity</string>
+    <string name="title_activity_adapter_application">adapter_application</string>
+    <string name="title_activity_detail_application">DetailApplication</string>
+
+    <!-- Menu Principal-->
+    <string name="action_all">All</string>
+    <string name="action_games">Games</string>
+    <string name="action_photo">Photo  Video</string>
+    <string name="action_settings">Social Networking</string>
+    <!--<string name="action_settings">Music</string>
+    <string name="action_settings">Education</string>
+    <string name="action_settings">Navigation</string>
+    <string name="action_settings">Entertainment</string>
+    <string name="action_settings">Travel</string>-->
+</resources>
